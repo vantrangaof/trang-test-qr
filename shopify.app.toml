@@ -3,15 +3,23 @@
 client_id = "ff0a3be6ba63dea82696c77064f55b4f"
 name = "trang-test-qr"
 handle = "trang-test-qr"
-application_url = "https://example.com/"
+application_url = "https://restored-lights-looking-monitor.trycloudflare.com"
 embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "trang-akohub-checkout-extensibility.myshopify.com"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
 scopes = ""
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [
+  "https://restored-lights-looking-monitor.trycloudflare.com/auth/callback",
+  "https://restored-lights-looking-monitor.trycloudflare.com/auth/shopify/callback",
+  "https://restored-lights-looking-monitor.trycloudflare.com/api/auth/callback"
+]
 
 [webhooks]
 api_version = "2024-10"

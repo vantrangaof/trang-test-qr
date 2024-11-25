@@ -1,3 +1,17 @@
+# WHAT IS THIS ABOUT? 
+
+This is a test QR app built using Remix based on a Shopify tutorial
+Link: [View here](https://shopify.dev/docs/apps/build/build?framework=remix)
+
+# STEPS TO RECREATE? 
+
+<b>1. Step 1: Scaffold an app</b>
+Visit this [link](https://shopify.dev/docs/apps/build/scaffold-app) here to learn how to scaffold an app
+Quick intro: 
+- Move to your designated folder, run the command `shopify app init`
+- Local dev: `cd my-new-app` then `shopify app dev`
+
+
 # Shopify App Template - Remix
 
 This is a template for building a [Shopify app](https://shopify.dev/docs/apps/getting-started) using the [Remix](https://remix.run) framework.
